@@ -55,7 +55,7 @@ onCandidateCreated: ()=>void;
 
                  <form onSubmit={handleSubmit}>
                      {error && (
-                         <div className="p-3 bg-red-50 border border-red-200 text-red-600 text-sm rounded-lg ">
+                         <div className="p-3 bg-red-50 border dark:border-orange-500 border-red-200 text-red-600 text-sm rounded-lg ">
                              {error}
                          </div>
                      )}
