@@ -42,9 +42,9 @@ onCandidateCreated: ()=>void;
      if(!isOpen) return null;
      return (
 
-             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-xl border border-gray-100 max-w-lg w-full">
+             <div className="bg-gray-100  p-8 rounded-3xl shadow-xl border border-gray-100 max-w-lg w-full">
                 <div className="flex flex-col justify-between items-center p-4 border-b border-gray-200 mb-10">
-                    <h2 className="text-xl font-bold text-gray-900">
+                    <h2 className="text-xl font-bold text-gray-800">
                         Novo Candidato
                     </h2>
                     <p className="text-sm text-gray-500 mt-1">
@@ -61,25 +61,25 @@ onCandidateCreated: ()=>void;
                      )}
                      <div className="w-full flex flex-col items-start ">
                          <label
-                             className ="block text-xs font-semibold text-gray-950  mb-1 ml-1"
+                             className ="block text-xs font-semibold text-gray-600 mb-1 ml-1"
                          >Nome Completo</label>
                          <input
                              required name="name" value={formData.name} onChange={handleChange}
                              type="text"
-                             className="w-full  p-3 border border-gray-200 rounded-xl focus:bg-white focus:ring-2 focus:ring-orange-500 outline-none transition-all"
+                             className="w-full bg-white p-3 placeholder:text-gray-400  text-gray-900 border border-gray-300 rounded-xl  focus:ring-2 focus:ring-orange-500 outline-none transition-all"
                              placeholder="António Joaquim"
                          />
                      </div>
 
                      <div className="w-full  flex flex-col items-start">
                          <label
-                             className="block text-xs font-semibold text-gray-950 mb-1 ml-1"
+                             className="block text-xs font-semibold text-gray-600 mb-1 ml-1"
                          >E-mail</label>
                          <input
                              required
                                type="email"
                                 name="email"
-                             className="w-full p-3 border border-gray-300 rounded-xl foucs:ring-2 focus:ring-orange-500 outline-none transition-all"
+                             className="w-full text-gray-900  p-3 bg-white border border-gray-300 rounded-xl foucs:ring-2 focus:ring-orange-500 outline-none transition-all"
                              value={formData.email}
                               onChange={handleChange}
                          placeholder="antonio.j@zenogrupo.com"
@@ -88,24 +88,24 @@ onCandidateCreated: ()=>void;
 
                      <div className="w-full flex flex-col items-start">
                          <label
-                         className="block text-xs font-semibold text-gray-950 mb-1 ml-1"
+                         className="block text-xs font-semibold text-gray-600 mb-1 ml-1"
                          >Telefone</label>
                          <input
                              required name="phone"
                              value={formData.phone}
                              onChange={handleChange}
-                             className="w-full p-3 border border-gray-200 rounded-xl foucs:ring-2 foucs:ring-orange-500 outline-none transition-all"
+                             className="w-full p-3 border bg-white border-gray-300 rounded-xl foucs:ring-2 focus:ring-orange-500 outline-none transition-all"
                              placeholder="+244..."
                              />
                      </div>
 
                      <div className="w-full flex flex-col items-start">
                          <label
-                         className="block text-xs font-semibold text-gray-950 mb-1 ml-1"
+                         className="block text-xs font-semibold text-gray-600 mb-1 ml-1"
                          >URL Currículo</label>
                          <input
                              required name="resumeurl"
-                             className="w-full p-3 border border-gray-200 rounded-xl foucs:ring-2 foucs:ring-orange-500 outline-none transition-all"
+                             className="w-full p-3 bg-white border  text-gray-900 border-gray-300 rounded-xl foucs:ring-2 focus:ring-orange-500 outline-none transition-all"
                              value={formData.resumeurl}
                              onChange={handleChange}
                              type="text"

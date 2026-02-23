@@ -11,7 +11,7 @@ export default function CandidatesPage() {
           <div className="flex flex-col justify-center items-center mb-8 text-center">
               {/*aqui fica a hero section*/}
               <div className="flex flex-col gap-1">
-                     <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white">
+                     <h1 className="text-2xl font-extrabold text-gray-800 ">
                                   Gestão de Talentos <span className="text-orange-500">Zeno Grupo</span>
                   </h1>
                   <p className="text-gray-500 text-sm">Bem-vindo, <span className="text-orange-500 font-bold">ADMIN</span>. Tens <span className="font-bold text-orange-500">{candidates.length}</span> candidatos inscritos para as vagas de Software Engineer.
