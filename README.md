@@ -1,37 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Zeno Grupo - Portal de Candidaturas (Frontend)
 
-## Getting Started
+Este é o módulo Frontend do sistema de gestão de candidatos desenvolvido para o desafio técnico **ZENCODE (ZEN3579)**. A aplicação foi construída com foco em performance, organização e escalabilidade, utilizando as tecnologias mais modernas do ecossistema JavaScript.
 
-First, run the development server:
+## 🌐 Link da Aplicação em Produção
+A aplicação está live e pode ser acedida aqui: 
+👉 [https://zenogrupocandidate.onrender.com/](https://zenogrupocandidate.onrender.com/)
 
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
+
+## 📂 Estrutura do Projeto
+
+A organização de pastas segue as melhores práticas de componentização e separação de conceitos (Clean Architecture):
+
+* **`app/`**: Contém a página principal de listagem de candidatos e configurações globais.
+* **`components/`**: Componentes de UI reutilizáveis, incluindo o Modal de cadastro (`CreateCandidate.tsx`).
+* **`hooks/`**: Hooks customizados (`useCandidates.ts`) para gestão de estado e lógica de consumo de dados.
+* **`services/`**: Camada de serviço (`candidateService.ts`) que abstrai as chamadas HTTP para a API.
+* **`types/`**: Interfaces TypeScript que garantem a integridade dos dados em toda a aplicação.
+
+---
+
+## 📸 Demonstração Visual
+
+<div align="center">
+  <p><i>Página principal com listagem de candidatos e Modal de cadastro integrado.</i></p>
+  <img src="https://res.cloudinary.com/dwp3wuum6/image/upload/v1771877575/Screen_Shot_2026-02-23_at_21.12.08_hhqc5v.png" alt="Dashboard Principal" width="45%"/>
+  <img src="[./public/screenshot2.png](https://res.cloudinary.com/dwp3wuum6/image/upload/v1771877587/Screen_Shot_2026-02-23_at_21.12.22_f1zuwe.png)" alt="Modal de Cadastro" width="45%"/>
+</div>
+
+---
+
+## 🚀 Deploy no Render
+
+A aplicação foi configurada como um **Static Site** no Render para garantir máxima velocidade. As definições utilizadas foram:
+
+* **Build Command:** `npm install && npm run build`
+* **Publish Directory:** `out`
+* **Environment Variables:** `NEXT_PUBLIC_API_URL` configurada no painel do Render.
+
+---
+
+## ⚙️ Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para colocar o ambiente a funcionar na sua máquina:
+
+### 1. Clonar o Repositório
 ```bash
+git clone [https://github.com/TheRealCocky/zeno-candidate-frontend.git](https://github.com/TheRealCocky/zeno-candidate-frontend.git)
+cd zeno-candidate-frontend
+2. Configurar Variáveis de Ambiente
+Crie o ficheiro de configuração necessário para que o Frontend saiba onde encontrar a API:
+echo "NEXT_PUBLIC_API_URL=[https://zeno-candidate-backend.onrender.com/api](https://zeno-candidate-backend.onrender.com/api)" > .env.local
+
+3. Instalar Dependências
+Bash
+
+npm install
+4. Iniciar o Servidor de Desenvolvimento
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# zeno-candidate-frontend
+Nota: Após iniciar, a aplicação estará disponível em http://localhost:3000.
