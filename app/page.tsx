@@ -97,7 +97,9 @@ export default function CandidatesPage() {
                                               Abrir PDF
                                           </a>
                                       </td>
-                                      <td className="p-3 ">{candidate.dataSubmitted}</td>
+                                      <td className="p-3 ">
+                                          {candidate.dataSubmitted ? new Date(candidate.dataSubmitted).toLocaleDateString('pt-PT') : '-'}
+                                      </td>
                                   </tr>
                               ))}
                               </tbody>
