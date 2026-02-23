@@ -33,7 +33,7 @@ A organização de pastas segue as melhores práticas de componentização e sep
 <div align="center">
   <p><i>Página principal com listagem de candidatos e Modal de cadastro integrado.</i></p>
   <img src="https://res.cloudinary.com/dwp3wuum6/image/upload/v1771877575/Screen_Shot_2026-02-23_at_21.12.08_hhqc5v.png" alt="Dashboard Principal" width="45%"/>
-  <img src="[./public/screenshot2.png](https://res.cloudinary.com/dwp3wuum6/image/upload/v1771877587/Screen_Shot_2026-02-23_at_21.12.22_f1zuwe.png)" alt="Modal de Cadastro" width="45%"/>
+  <img src="https://res.cloudinary.com/dwp3wuum6/image/upload/v1771877587/Screen_Shot_2026-02-23_at_21.12.22_f1zuwe.png" alt="Modal de Cadastro" width="45%"/>
 </div>
 
 ---
