@@ -1,14 +1,14 @@
-# 🚀 Zeno Grupo - Portal de Candidaturas (Frontend)
+#  Zeno Grupo - Portal de Candidaturas (Frontend)
 
 Este é o módulo Frontend do sistema de gestão de candidatos desenvolvido para o desafio técnico **ZENCODE (ZEN3579)**. A aplicação foi construída com foco em performance, organização e escalabilidade, utilizando as tecnologias mais modernas do ecossistema JavaScript.
 
-## 🌐 Link da Aplicação em Produção
+##  Link da Aplicação em Produção
 A aplicação está live e pode ser acedida aqui: 
-👉 [https://zenogrupocandidate.onrender.com/](https://zenogrupocandidate.onrender.com/)
+ [https://zenogrupocandidate.onrender.com/](https://zenogrupocandidate.onrender.com/)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -16,7 +16,7 @@ A aplicação está live e pode ser acedida aqui:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 A organização de pastas segue as melhores práticas de componentização e separação de conceitos (Clean Architecture):
 
@@ -28,7 +28,7 @@ A organização de pastas segue as melhores práticas de componentização e sep
 
 ---
 
-## 📸 Demonstração Visual
+##  Demonstração Visual
 
 <div align="center">
   <p><i>Página principal com listagem de candidatos e Modal de cadastro integrado.</i></p>
@@ -38,7 +38,7 @@ A organização de pastas segue as melhores práticas de componentização e sep
 
 ---
 
-## 🚀 Deploy no Render
+##  Deploy no Render
 
 A aplicação foi configurada como um **Static Site** no Render para garantir máxima velocidade. As definições utilizadas foram:
 
@@ -48,7 +48,7 @@ A aplicação foi configurada como um **Static Site** no Render para garantir m�
 
 ---
 
-## ⚙️ Como Rodar o Projeto Localmente
+## Como Rodar o Projeto Localmente
 
 Siga os passos abaixo para colocar o ambiente a funcionar na sua máquina:
 
